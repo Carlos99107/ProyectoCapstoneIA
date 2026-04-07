@@ -59,17 +59,26 @@ variables RFM
 variable objetivo (churn)
 
 
-## 🔁 Reproducibilidad del prototipo
+## 🔁 Reproducibilidad académica del proyecto
 
 Debido a la confidencialidad de los datos reales y al uso de un entorno corporativo en GCP,
-el proyecto incluye un modo de ejecución académica que permite reproducir:
+la ejecución productiva completa del proyecto no es pública.
 
-✅ El pipeline completo  
-✅ El entrenamiento del modelo  
-✅ La validación y métricas  
-✅ La estructura de resultados  
+No obstante, el proyecto ha sido diseñado siguiendo principios de reproducibilidad,
+por lo que:
 
-sin acceso a datos privados.
+✅ El pipeline completo (preprocesamiento, feature engineering, modelado y evaluación)
+puede ejecutarse con cualquier dataset que respete el esquema definido.
+
+✅ Para fines académicos, el flujo del proyecto es reproducible utilizando
+un dataset sintético o anonimizado que replica la estructura y distribución
+estadística de los datos reales, sin exponer información sensible.
+
+✅ Las métricas, validaciones y comportamiento del modelo son independientes
+del origen de los datos, permitiendo validar correctamente la implementación técnica.
+
+De esta forma, el proyecto cumple con criterios de reproducibilidad académica,
+manteniendo el cumplimiento de las políticas de confidencialidad de la organización.
 
 Se realizó la extracción de un sample de los datos con 2000 filas y datos anonimizados para la recreación del modelo
 Datos:
